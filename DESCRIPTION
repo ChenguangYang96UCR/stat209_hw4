@@ -1,0 +1,28 @@
+Package: ErInjuryExplorer
+Title: Shiny Explorer for NEISS Emergency Room Injury Data
+Version: 0.1.0
+Authors@R:
+    c(person(given = "Chenguang",
+             family = "Yang",
+             email = "cyang314@ucr.edu",
+             role = c("aut", "cre")))
+Author: Chenguang Yang [aut, cre]
+Maintainer: Chenguang Yang <cyang314@ucr.edu>
+Description: Provides a Shiny application for exploring the emergency room
+    injury data used in Chapter 4 of Mastering Shiny. The app summarizes patient
+    demographics and injury variables, shows patient narratives by injured body
+    part, and includes an extra product-code exploration tab.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    DT,
+    dplyr,
+    forcats,
+    ggplot2,
+    rlang,
+    shiny,
+    stringr,
+    tibble,
+    vroom
